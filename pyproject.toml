@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentbox"
+version = "0.0.1"
+description = "Open-source sandbox runtime for AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["docker>=7.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/CheemaEdu/agentbox"
